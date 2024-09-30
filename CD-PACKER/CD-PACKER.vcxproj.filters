@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Add section">
+      <UniqueIdentifier>{6d1b448b-63f1-44b9-9f3d-92e9dfb0a500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lzCompression">
+      <UniqueIdentifier>{2e8eb397-a43d-4f8f-9d92-a4453c3767b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pe操作项">
+      <UniqueIdentifier>{c9823b2b-2faf-4269-bff0-dd0727e2cc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AES">
+      <UniqueIdentifier>{d774e245-d95a-428e-b531-3c9fba357d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据">
+      <UniqueIdentifier>{bc323ccc-3665-4f66-a992-fd1b9b6249bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CD-PACKER.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\写个壳\Shell_Protect-main(虚拟壳)\AddSection.cpp">
+      <Filter>Add section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\写个壳\Shell_Protect-main(虚拟壳)\lz4\include\lz4.c">
+      <Filter>lzCompression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\写个壳\Shell_Protect-main(虚拟壳)\quick\quicklz.c">
+      <Filter>lzCompression</Filter>
+    </ClCompile>
+    <ClCompile Include="CPeFileOper.cpp">
+      <Filter>pe操作项</Filter>
+    </ClCompile>
+    <ClCompile Include="AES.cpp">
+      <Filter>AES</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include=".editorconfig.inferred" />
+    <None Include="..\..\..\..\Desktop\写个壳\Shell_Protect-main(虚拟壳)\x64.asm">
+      <Filter>Add section</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Desktop\写个壳\Shell_Protect-main(虚拟壳)\AddSection.h">
+      <Filter>Add section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\写个壳\Shell_Protect-main(虚拟壳)\lz4\include\lz4.h">
+      <Filter>lzCompression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\写个壳\Shell_Protect-main(虚拟壳)\quick\quicklz.h">
+      <Filter>lzCompression</Filter>
+    </ClInclude>
+    <ClInclude Include="CPeFileOper.h">
+      <Filter>pe操作项</Filter>
+    </ClInclude>
+    <ClInclude Include="AES.h">
+      <Filter>AES</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>数据</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
